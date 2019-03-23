@@ -8,11 +8,11 @@
 
 * 1. Primero necesitamos tener git instalado en nuestra computadora, por esto descargamos la versión que esté disponible desde la web https://git-scm.com/downloads
 
- <img src="/img/git-download.png" alt="logo" width="600" height="400">
+ <img src="/img/git-download.png" alt="logo" width="600" height="300">
 
 * 2. Para instalar damos doble clic en el ejecutable descargado y le damos "siguiente siguiente" en todo
 
- <img src="/img/git-bash-open.png" alt="logo" width="600" height="400">
+ <img src="/img/git-install.png" alt="logo" width="600" height="400">
 
 * 3. Terminada la instalación ahora podemos abrir la consola de git más conocida como git bash. Para esto damos clic derecho desde cualquier lugar del escritorio.
  <img src="/img/git-bash-open.png" alt="open" width="600" height="400">
@@ -23,7 +23,7 @@
 
 <code> git config --global user.email "micorreo@dominio.com" </code>
 
- <img src="/img/git-bash-setting" alt="setting" width="600" height="400">
+ <img src="/img/git-bash-setting.png" alt="setting" width="600" height="400">
 
 
 <h2>Empezando un proyecto con Git</h2>
