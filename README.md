@@ -57,7 +57,7 @@ Al trabajar con git existen distintas etapas o stages que pasa nuestro código. 
 
 * 1. <p>Abrimos la consola GitBash desde dentro del proyecto que queremos trabajar. Ejecutaremos el comando que pase al estado de Stagged nuestros archivos</p>
 
-<img src="/img/git-add.png" alt="stages" width="500" height="300">
+<img src="/img/git-add.png" alt="stages" width="300" height="150">
 
 <code> git add .  </code>
 
@@ -75,5 +75,40 @@ Al trabajar con git existen distintas etapas o stages que pasa nuestro código. 
 
 * 4.  <b>Listo 😎 </b> Repetimos estos pasos cada vez que modifiquemos o agreguemos algún archivo a nuestro proyecto.
 
+
+<h2>Descargando un proyecto de otros Propietarios</h2>
+
+<p>Ahora intentemos descargar nuestro u otro proyecto en otra computadora donde no lo tengamos en nuestro disco local.</p>
+
+<p> Descarguemos el proyecto de <b>Netflix</b>  😎 https://github.com/Netflix/spectator-cpp</p>
+
+<img src="/img/git-landing-project.png" alt="stages" width="500" height="300">
+
+* 1. <p>Entramos a la url https://github.com/Netflix/spectator-cpp y copiamos la url para "Clonar el proyecto" damos clic en Clone or Download </p>
+
+<img src="/img/git-clone.png" alt="stages" width="300" height="150">
+
+* 1. <p>Creamos una carpeta donde queremos que se descargue el proyecto y desde allí abrimos la consola de gitbash y ejecutamos</p>
+
+<code>git clone https://github.com/Netflix/spectator-cpp.git</code>
+<img src="/img/git-clone-netflix.png" alt="stages" width="300" height="150">
+
+* 2. <p>Listo descargamos el proyecto. Ahora podemos modificarlo y publicarlo en un nuevo repositorio.</p>
+
+<img src="/img/git-clone-done.png" alt="stages" width="300" height="150">
+
+* 3. <p>Ahora necesitamos crear un nuevo repositorio en nuestra cuenta de Github. Para esto sigamos todos los puntos escritos en la sección de <b>"Empezando un proyecto con Git"</b>. Recordemos realizarlo dentro de la carpeta donde descargamos el proyecto.</p>
+
+Creando el Repositorio remoto
+<img src="/img/git-netflix-create-repo.png" alt="stages" width="300" height="150">
+
+Iniciando Git desde la carpeta donde se descargó
+<img src="/img/git-init-netflix.png" alt="stages" width="300" height="150">
+
+Publicando el repo (<b>Considerar que se cambio en este caso origin por origins</b>)
+<img src="/img/git-netflix-publish.png" alt="stages" width="300" height="150">
+
+
+* 4. <b>Listo 😎 logramos descargar una repo de Netflix y publicar una versión propia </b>
 
 
