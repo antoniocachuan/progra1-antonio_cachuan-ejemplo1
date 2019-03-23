@@ -100,6 +100,7 @@ Al trabajar con git existen distintas etapas o stages que pasa nuestro código. 
 <div>
 <img src="/img/git-clone-done.png" alt="stages" width="500" height="350">
 </div>
+
 * 3. <p>Ahora necesitamos crear un nuevo repositorio en nuestra cuenta de Github. Para esto sigamos todos los puntos escritos en la sección de <b>"Empezando un proyecto con Git"</b>. Recordemos realizarlo dentro de la carpeta donde descargamos el proyecto.</p>
 
 Creando el Repositorio remoto
@@ -121,7 +122,7 @@ Publicando el repo (<b>Considerar que se cambio en este caso origin por origins<
 
 <p>Si necesitamos descargar nuestro proyecto publicado en Github a otra PC utilizaremos <code> git pull</code></p>
 
-* 1. <p>Creamos una carpeta donde queremos que se descargue el proyecto y desde allí abrimos la consola de gitbash y ejecutamos (la url la tomamos del apartado del clone)</p>
+* 1. <p>Creamos una carpeta donde queremos que se descargue el proyecto y desde allí abrimos la consola de gitbash y ejecutamos los siguiente comandos (la url la tomamos de la página de donde está publicado tu proyecto)</p>
 
 <div>
 <img src="/img/git-pull.png" alt="stages" width="300" height="150">
@@ -139,7 +140,7 @@ Publicando el repo (<b>Considerar que se cambio en este caso origin por origins<
 
 * 2. <p>Ahora podemos en esa computadora seguir los pasos de la sección <b>"Trabajando un proyecto"</b> para commiter y pushear. Cuando se necesite realizar esos pasos en la pc original primero necesitará hacer un <code> git pull origin master</code> para sincronizar los cambios.</p>
 
-* 3. <b>Listo 😎 logramos aprender a trabajar con nuestro proyecto en diferentes computadores.
+* 3. <b>Listo 😎 logramos aprender a trabajar con nuestro proyecto en diferentes computadoras.</b>
 
 <h2>Preguntas frecuentes</h2>
 
