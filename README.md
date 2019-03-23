@@ -1,7 +1,7 @@
-#Manual Git
+<h1>Manual Git<h1>
 Git es una tecnología que se usa para el versionamiento de código,que facilita el trabajo de varias personas en un proyecto.
 
-##Set up inicial
+<h2>Set up inicial</h2>
 
 * Aqui necesitamos crear nuestro repositorio en la web de Github o Gitlab
 Según la nomenclatura "progra1-nombre_apellido-detalle"
@@ -17,7 +17,7 @@ Ahora Digámosle a git quienes somos
 
 
 
-##Trabajando un proyecto con Git
+<h2>Trabajando un proyecto con Git</h2>
 
 * Iniciemos el repositorio (solo se realiza una vez por proyecto) - Estado Untracked
 - Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash"
@@ -29,7 +29,7 @@ Ahora Digámosle a git quienes somos
 
 
 
-##Trabajando un proyecto
+<h2>Trabajando un proyecto</h2>
 Luego del git init nuestros archivos están en estado Tracked
 
 - Pasamos al estado Stagged nuestros archivos
