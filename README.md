@@ -9,6 +9,7 @@ Ahora Digámosle a git quienes somos
 - Abrir la consola de git (conocida como gitbash o abrir cmd)
 - Configuramos git con nuestras credenciales
 > git config --global user.name "Nombre Apellido"
+
 > git config --global user.email "micorreo@dominio.com"
 
 
