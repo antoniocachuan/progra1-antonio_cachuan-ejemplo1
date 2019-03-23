@@ -78,7 +78,7 @@ Al trabajar con git existen distintas etapas o stages que pasa nuestro código. 
 
 <h2>Descargando un proyecto de otros Propietarios</h2>
 
-<p>Ahora intentemos descargar nuestro u otro proyecto en otra computadora donde no lo tengamos en nuestro disco local.</p>
+<p>Ahora intentemos descargar un proyecto desarrollado por otro empresa o persona.</p>
 
 <p> Descarguemos el proyecto de <b>Netflix</b>  😎 https://github.com/Netflix/spectator-cpp</p>
 
@@ -108,7 +108,7 @@ Creando el Repositorio remoto
 </div>
 Iniciando Git desde la carpeta donde se descargó
 <div>
-<img src="/img/git-init-netflix.png" alt="stages" width="500" height="350">
+<img src="/img/git-init-netflix.png" alt="stages" width="400" height="250">
 </div>
 Publicando el repo (<b>Considerar que se cambio en este caso origin por origins</b>)
 <div>
@@ -117,4 +117,32 @@ Publicando el repo (<b>Considerar que se cambio en este caso origin por origins<
 
 * 4. <b>Listo 😎 logramos descargar una repo de Netflix y publicar una versión propia </b>
 
+<h2>Descargando un proyecto nuestro</h2>
 
+<p>Si necesitamos descargar nuestro proyecto publicado en Github a otra PC utilizaremos <code> git pull</code></p>
+
+* 1. <p>Creamos una carpeta donde queremos que se descargue el proyecto y desde allí abrimos la consola de gitbash y ejecutamos (la url la tomamos del apartado del clone)</p>
+
+<div>
+<img src="/img/git-pull.png" alt="stages" width="300" height="150">
+</div>
+
+<code>git init</code>
+
+<code> git remote add origin https://github.com/miusuariogithub/progra1-nombre_apellido-ejemplo1.git</code> 
+
+<code>git pull origin master</code>
+
+<div>
+<img src="/img/git-pull-final.png" alt="stages" width="500" height="350">
+</div>
+
+* 2. <p>Ahora podemos en esa computadora seguir los pasos de la sección <b>"Trabajando un proyecto"</b> para commiter y pushear. Cuando se necesite realizar esos pasos en la pc original primero necesitará hacer un <code> git pull origin master</code> para sincronizar los cambios.</p>
+
+* 3. <b>Listo 😎 logramos aprender a trabajar con nuestro proyecto en diferentes computadores.
+
+<h2>Preguntas frecuentes</h2>
+
+* 1. <b>Se me pedirá mi clave y usuario de Github?</b> Es problable que an algunos de las secciones anteriores dentro de la consola de gitbash se te pida ingresar tu usuario y clave.
+
+* 2. <b>Recursos para seguir aprendiendo</b> Se recomienda seguir los tutoriales de la web https://try.github.io/  
