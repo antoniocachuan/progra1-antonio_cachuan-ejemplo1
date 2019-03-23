@@ -1,4 +1,4 @@
-<h1>Manual Git<h1>
+<h1>Manual Git</h1>
 Git es una tecnología que se usa para el versionamiento de código,que facilita el trabajo de varias personas en un proyecto.
 
 <h2>Set up inicial</h2>
