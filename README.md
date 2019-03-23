@@ -28,33 +28,44 @@
 
 <h2>Empezando un proyecto con Git</h2>
 
-* <b>Crear nuestro repositorio </b>  en la web de Github o Gitlab
+* 1. <b>Crear nuestro repositorio remoto</b>  en la web de Github o Gitlab
 Según la nomenclatura "progra1-nombre_apellido-detalle"
 https://github.com/new
 
-* <b>Iniciemos el repositorio </b> (Estado Untracked) (solo se realiza una vez por proyecto) Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y escribimos:</p>
-
-> git init
-
-* <b>Enlazamos nuestro repositorio remoto con el local </b> (la url se obtiene de la página del Set Up Inicial, también se lanza desde el gitbash) 
-
-> git remote add origin https://github.com/miusuariogithub/progra1-nombre_apellido-ejemplo1.git
+<img src="/img/git-hub-create.png" alt="setting" width="600" height="400">
 
 
+* 2. <b>Iniciemos el repositorio local</b> (Estado Untracked) (solo se realiza una vez por proyecto) Clic derecho dentro de la carpeta del proyecto (En este ejemplo la carpeta se llama "Git_Project" y contiene archivos de texto con código) y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y ejecutamos <code>git init</code>.</p>
+
+<img src="/img/git-bash-project.png" alt="setting" width="600" height="400">
+
+<code> git init</code>
+
+* 3. <b>Enlazamos nuestro repositorio remoto con el local </b> (la url se obtiene de la página del Set Up Inicial) Para esto abrimos nuestro gitbash y lanzamos el código.
+
+<img src="/img/git-hub-remote-link.png" alt="setting" width="600" height="400">
+
+<code> git remote add origin https://github.com/miusuariogithub/progra1-nombre_apellido-ejemplo1.git</code> 
+
+<img src="/img/git-remote-add.png" alt="remote" width="600" height="400">
 
 <h2>Trabajando un proyecto</h2>
-Luego del git init nuestros archivos están en estado Tracked
 
-- Pasamos al estado Stagged nuestros archivos
-> git add .
+<img src="/img/git-stages.svg" alt="stages" width="600" height="400">
 
-- "Commiteamos" nuestro proyecto - Estado Snapshot
-> git commit -m "[ADD] First commit"
+Al trabajar con git existen distintas etapas o stages que pasa nuestro código. En este caso los siguientes pasos permitirán publicar nuestro código en el repositorio de Github creado.
 
-- "Pusheamos" nuestro proyecto al repositorio remoto
-> git push origin master
+* 1. <p>Abrimos la consola GitBash desde dentro del proyecto que queremos trabajar. Ejecutaremos el comando que pase al estado de Stagged nuestros archivos</p>
 
-- Listo 😎 (Repetimos estos pasos cada vez que modifiquemos o agreguemos algún archivo)
+<code> git add .  </code>
+
+* 2. Seguido "Commiteamos" nuestro proyecto - Estado Snapshot
+<code> git commit -m "[ADD] Comentario descriptivo" </code>
+
+* 3. "Pusheamos" nuestro proyecto al repositorio remoto que configuramos
+<code>  git push origin master  </code>
+
+* 4.  <b>Listo 😎 </b> Repetimos estos pasos cada vez que modifiquemos o agreguemos algún archivo a nuestro proyecto.
 
 
 
