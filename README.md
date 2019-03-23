@@ -3,10 +3,6 @@ Git es una tecnología que se usa para el versionamiento de código,que facilita
 
 <h2>Set up inicial</h2>
 
-* Aqui necesitamos crear nuestro repositorio en la web de Github o Gitlab
-Según la nomenclatura "progra1-nombre_apellido-detalle"
-https://github.com/new
-
 * Necesitamos tener git instalado en nuestra computadora (https://git-scm.com/downloads) "siguiente siguiente"
 
 Ahora Digámosle a git quienes somos 
@@ -17,14 +13,17 @@ Ahora Digámosle a git quienes somos
 
 
 
-<h2>Trabajando un proyecto con Git</h2>
+<h2>Empezando un proyecto con Git</h2>
+
+* Necesitamos crear nuestro repositorio en la web de Github o Gitlab
+Según la nomenclatura "progra1-nombre_apellido-detalle"
+https://github.com/new
 
 * Iniciemos el repositorio (solo se realiza una vez por proyecto) - Estado Untracked
-- Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash"
--  desde cmd ingresamos a la ruta del proyecto y escribimos
+Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y escribimos:
 > git init
 
-* Enlazamos nuestro repositorio remoto con el local (la url se obtiene de la página del Set Up Inicial)
+* Enlazamos nuestro repositorio remoto con el local (la url se obtiene de la página del Set Up Inicial, también se lanza desde el gitbash) 
 > git remote add origin https://github.com/miusuariogithub/progra1-nombre_apellido-ejemplo1.git
 
 
