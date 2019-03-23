@@ -1,19 +1,29 @@
 <h1>Manual Git</h1>
-Git es una tecnología que se usa para el versionamiento de código,que facilita el trabajo de varias personas en un proyecto.
+<p>Git es una tecnología que se usa para el versionamiento de código,que facilita el trabajo de varias personas en un proyecto.</p>
 
  <img src="/img/git-logo.png" alt="logo" width="200"
          height="80">
 
 <h2>Set up inicial</h2>
 
-* Necesitamos tener git instalado en nuestra computadora (https://git-scm.com/downloads) "siguiente siguiente"
+* 1. Primero necesitamos tener git instalado en nuestra computadora, por esto descargamos la versión que esté disponible desde la web https://git-scm.com/downloads
 
-Ahora Digámosle a git quienes somos 
-- Abrir la consola de git (conocida como gitbash o abrir cmd)
-- Configuramos git con nuestras credenciales
-> git config --global user.name "Nombre Apellido"
+ <img src="/img/git-download.png" alt="logo" width="200" height="100">
 
-> git config --global user.email "micorreo@dominio.com"
+* 2. Para instalar damos doble clic en el ejecutable descargado y le damos "siguiente siguiente" en todo
+
+ <img src="/img/git-bash-open.png" alt="logo" width="200" height="100">
+
+* 3. Terminada la instalación ahora podemos abrir la consola de git más conocida como git bash. Para esto damos clic derecho desde cualquier lugar del escritorio.
+ <img src="/img/git-download.png" alt="download" width="200" height="100">
+
+* 4. Configuramos las credenciales ejecutando el código en la consola/terminal abierto.
+
+<code> git config --global user.name "Nombre Apellido" </code>
+
+<code> git config --global user.email "micorreo@dominio.com" </code>
+
+ <img src="/img/git-bash-setting" alt="setting" width="200" height="100">
 
 
 
