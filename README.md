@@ -43,11 +43,11 @@ https://github.com/new
 
 * 3. <b>Enlazamos nuestro repositorio remoto con el local </b> (la url se obtiene de la página del Set Up Inicial) Para esto abrimos nuestro gitbash y lanzamos el código.
 
-<img src="/img/git-hub-remote-link.png" alt="setting" width="600" height="400">
+<img src="/img/git-hub-remote-link.png" alt="setting" width="600" height="300">
 
 <code> git remote add origin https://github.com/miusuariogithub/progra1-nombre_apellido-ejemplo1.git</code> 
 
-<img src="/img/git-remote-add.png" alt="remote" width="600" height="400">
+<img src="/img/git-remote-add.png" alt="remote" width="500" height="300">
 
 <h2>Trabajando un proyecto</h2>
 
@@ -57,12 +57,20 @@ Al trabajar con git existen distintas etapas o stages que pasa nuestro código. 
 
 * 1. <p>Abrimos la consola GitBash desde dentro del proyecto que queremos trabajar. Ejecutaremos el comando que pase al estado de Stagged nuestros archivos</p>
 
+<img src="/img/git-add.png" alt="stages" width="500" height="300">
+
 <code> git add .  </code>
 
 * 2. Seguido "Commiteamos" nuestro proyecto - Estado Snapshot
+
+<img src="/img/git-commit.png" alt="stages" width="500" height="300">
+
 <code> git commit -m "[ADD] Comentario descriptivo" </code>
 
 * 3. "Pusheamos" nuestro proyecto al repositorio remoto que configuramos
+
+<img src="/img/git-push.png" alt="stages" width="500" height="300">
+
 <code>  git push origin master  </code>
 
 * 4.  <b>Listo 😎 </b> Repetimos estos pasos cada vez que modifiquemos o agreguemos algún archivo a nuestro proyecto.
