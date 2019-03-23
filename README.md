@@ -19,8 +19,8 @@ Ahora Digámosle a git quienes somos
 Según la nomenclatura "progra1-nombre_apellido-detalle"
 https://github.com/new
 
-* Iniciemos el repositorio (solo se realiza una vez por proyecto) - Estado Untracked
-Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y escribimos:
+* Iniciemos el repositorio (Estado Untracked)
+<p>(solo se realiza una vez por proyecto) Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y escribimos:</p>
 > git init
 
 * Enlazamos nuestro repositorio remoto con el local (la url se obtiene de la página del Set Up Inicial, también se lanza desde el gitbash) 
