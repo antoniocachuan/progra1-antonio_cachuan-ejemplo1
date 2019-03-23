@@ -1,6 +1,9 @@
 <h1>Manual Git</h1>
 Git es una tecnología que se usa para el versionamiento de código,que facilita el trabajo de varias personas en un proyecto.
 
+ <img src="/img/git-logo.png" alt="logo" width="200"
+         height="80">
+
 <h2>Set up inicial</h2>
 
 * Necesitamos tener git instalado en nuestra computadora (https://git-scm.com/downloads) "siguiente siguiente"
