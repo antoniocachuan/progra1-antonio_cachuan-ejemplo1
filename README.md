@@ -15,15 +15,16 @@ Ahora Digámosle a git quienes somos
 
 <h2>Empezando un proyecto con Git</h2>
 
-* Necesitamos crear nuestro repositorio en la web de Github o Gitlab
+* <b>Crear nuestro repositorio </b>  en la web de Github o Gitlab
 Según la nomenclatura "progra1-nombre_apellido-detalle"
 https://github.com/new
 
-* Iniciemos el repositorio (Estado Untracked)
-<p>(solo se realiza una vez por proyecto) Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y escribimos:</p>
+* <b>Iniciemos el repositorio </b> (Estado Untracked) (solo se realiza una vez por proyecto) Clic derecho dentro de la carpeta del proyecto y seleccionamos "Git Bash" o desde cmd ingresamos a la ruta del proyecto y escribimos:</p>
+
 > git init
 
-* Enlazamos nuestro repositorio remoto con el local (la url se obtiene de la página del Set Up Inicial, también se lanza desde el gitbash) 
+* <b>Enlazamos nuestro repositorio remoto con el local </b> (la url se obtiene de la página del Set Up Inicial, también se lanza desde el gitbash) 
+
 > git remote add origin https://github.com/miusuariogithub/progra1-nombre_apellido-ejemplo1.git
 
 
